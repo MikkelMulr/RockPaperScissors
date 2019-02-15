@@ -1,1 +1,1 @@
-# RockPaperScissors
+Project files for a basic Rock Paper Scissor Game based in vanilla JS

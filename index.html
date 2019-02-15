@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+
+<div class="container">
+<nav>
+    <!-- <h1>Rock Paper Scissors</h1> -->
+    <h1><i class="far fa-hand-rock"></i><i class="far fa-hand-paper"></i><i class="far fa-hand-scissors"></i></h1>
+
+    <div class="scores">
+        <label for="playerScore">PLAYER: </label>
+        <p id="playerScore"></p>
+        <label for="cpuScore">CPU: </label>
+        <p id="cpuScore"></p>
+        <label for="tieScore">TIE: </label>
+        <p id="tieScore"></p>
+    </div>
+  </nav>
+    <div class="buttons">
+        <button id="btn-rock">ROCK</button>
+        <button id="btn-paper">PAPER</button>
+        <button id="btn-scissor">SCISSORS</button>
+    </div>
+    
+    <div class="results">
+        <div class="player_one">
+            <img id="player_result" alt="Player choice image">            
+        </div>
+
+        <div class="player_two">
+            <img id="cpu_result" alt="CPU choice image">
+
+        </div>
+    </div>
+
+    <div class="display">
+        <p id="winner_result"></p>
+    </div>
+
+    <button id="reset">New Game</button>
+</div>
+
+<footer>
+  <div class="disclaimer">
+    <p>Not for commercial use or profit. Created for educational purposes only.</p>
+  </div>
+</footer>
+    
+    <script src="./app.js"></script>
+</body>
+</html>

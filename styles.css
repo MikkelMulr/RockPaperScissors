@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+.container {
+  background-color: rgb(36, 36, 36);
+  color: #FFF;
+  height: 100vh;
+  text-align: center;
+}
+
+nav {
+  background: #111;
+}
+
+.container h1 {
+  font-size: 60px;
+  padding: 15px;
+  margin-block-end: 10px;
+}
+
+i {
+  padding: 0 10px;
+}
+
+.container button {
+  margin: 10px 20px;
+  width: 140px;
+  padding: 10px;
+  font-weight: bold;
+  border-style: none;
+}
+
+#reset {
+  margin: 0;
+}
+
+.container button:hover {
+  background-color: rgb(116, 141, 223);
+  cursor: pointer;
+  color: #FFF;
+}
+
+#reset {
+  margin: 50px auto;
+}
+
+.results {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#player_result, #cpu_result {
+  border-radius: 10px;
+  margin: 10px;
+  border: 2px solid #FFF;
+}
+
+.scores {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 30px;
+  margin-bottom: 20px; 
+  border-bottom: 5px solid #FFF;
+}
+
+#playerScore, #cpuScore, #tieScore, label {
+  padding: 0 20px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#winner_result {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Permanent Marker';
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  background: #111;
+  color: #666;
+  border-top: 3px solid #FFF;
+}
+
+.winnerwinner {
+  color: green;
+}
+
+
